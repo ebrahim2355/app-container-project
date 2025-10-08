@@ -6,6 +6,7 @@ import reviewIcon from "../../assets/icon-review.png"
 import RatingsChart from '../../components/RatingsChart/RatingsChart';
 import { addToStoreDB, getStoredApp } from '../../utilities/addToDB';
 import { toast, ToastContainer } from 'react-toastify';
+import AppErrorPage from '../ErrorPage/AppErrorPage';
 
 const AppDetail = () => {
     const { id } = useParams();
@@ -14,12 +15,7 @@ const AppDetail = () => {
 
     if (!singleApp) {
         return (
-            <div className="flex flex-col justify-center items-center h-screen text-center">
-                <h1 className="text-5xl font-bold text-gray-600">App Not Found 😞</h1>
-                <p className="text-xl text-gray-500 mt-4">
-                    The app you’re looking for doesn’t exist or was removed.
-                </p>
-            </div>
+            <AppErrorPage></AppErrorPage>
         );
     }
 

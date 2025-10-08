@@ -53,7 +53,9 @@ const InstalledApps = () => {
                     </div>
                 </div>
                 <ToastContainer></ToastContainer>
-                <Suspense fallback={<div><span className="loading loading-ring loading-xl"></span></div>}>
+                <Suspense fallback={<div className='flex justify-center items-center py-10'>
+                    <span className='loading loading-ring loading-lg'></span>
+                </div>}>
                     {
                         appList.map(app => <InstalledApp app={app} key={app.id} handleUninstall={handleUninstall}></InstalledApp>)
                     }

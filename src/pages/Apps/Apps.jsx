@@ -1,6 +1,9 @@
+await new Promise(resolve => setTimeout(resolve, 3000)); // Simulate 3s delay
+
 import React, { Suspense } from 'react';
 import App from '../App/App';
 import { Link } from 'react-router';
+
 
 const Apps = ({ data }) => {
     return (
@@ -8,8 +11,9 @@ const Apps = ({ data }) => {
             <h1 className=' text-center text-5xl font-bold pb-4 pt-14'>Trending Apps</h1>
             <p className='text-center text-[#627382] text-xl pb-10'>Explore All Trending Apps on the Market developed by us</p>
 
-            <Suspense fallback={<div>
-                <span className="loading loading-ring loading-xl"></span></div>}>
+            <Suspense fallback={<div className='flex justify-center items-center py-10'>
+                <span className='loading loading-ring loading-lg'></span>
+            </div>}>
                 <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 max-w-[1440px] mx-auto gap-4'>
 
                     {
