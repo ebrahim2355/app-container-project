@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://i.postimg.cc/k4bVR6r2/download.jpg",
+    "title": "SkyTrack",
+    "companyName": "CloudTech Inc.",
+    "id": 1,
+    "description": "SkyTrack helps you monitor flights all around the world in real time, with live maps, delay alerts, and historical data. Dive into detailed statistics about each flight’s path, speed, altitude, and more. Whether you’re tracking your upcoming trip or just curious about air traffic, SkyTrack offers a sleek interface, customizable filters, push notifications, and offline caching for when you lose connectivity.",
+    "size": 152,
+    "reviews": 1245,
+    "ratingAvg": 4.7,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 710 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/LsdF6nTF/unnamed.png",
+    "title": "FitJourney",
+    "companyName": "WellnessLabs",
+    "id": 2,
+    "description": "FitJourney is your personal fitness companion that guides you through workouts, nutrition plans, habit tracking, and progress reports. Use it to set goals, log meals (with barcode scanning), track water intake, and connect with wearable devices. It also offers community challenges, motivational reminders, and AI-based adjustments to keep your training optimal and sustainable over time.",
+    "size": 87,
+    "reviews": 987,
+    "ratingAvg": 4.5,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 582 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/43Xw5GfM/download-1.jpg",
+    "title": "BudgetPal",
+    "companyName": "FinanceSoft",
+    "id": 3,
+    "description": "BudgetPal helps you manage money effortlessly. Track income and expenses, set budgets, get alerts when you're overspending, view insightful charts, and export data to spreadsheets. It supports multiple accounts, categories, recurring transactions, and year-end financial summaries. With dark mode, built-in security, and cloud sync, it’s perfect for both casual users and finance-savvy people.",
+    "size": 45,
+    "reviews": 756,
+    "ratingAvg": 4.2,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 251 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/rwfgQbDW/downloasfdvd.png",
+    "title": "TravelEyes",
+    "companyName": "WanderTech",
+    "id": 4,
+    "description": "TravelEyes is a travel planning and journaling app that lets you create itineraries, log your journey with photos and notes, find local attractions, and navigate offline maps. It integrates with flight and hotel bookings and provides suggestions based on your preferences. Share your travel stories with friends or export as a travel blog. It’s designed for adventurers who want both planning tools and memory keeping in one place.",
+    "size": 129,
+    "reviews": 432,
+    "ratingAvg": 4.8,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 200 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/5yfCc4Gz/download-2.jpg",
+    "title": "MindWave",
+    "companyName": "CalmTech",
+    "id": 5,
+    "description": "MindWave is a mental wellness app offering guided meditations, breathing exercises, mood tracking, sleep stories, and mindfulness challenges. It adapts sessions to your mood, offers reminders, and has soothing ambient sounds. Whether you're new to meditation or advanced practitioner, MindWave strives to help reduce stress, improve focus, and support better sleep through daily practice and progress visualization.",
+    "size": 67,
+    "reviews": 913,
+    "ratingAvg": 4.6,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 22 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 473 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/YScjK2Lq/downlreoad.png",
+    "title": "RecipeBox",
+    "companyName": "FoodieLabs",
+    "id": 6,
+    "description": "RecipeBox lets you discover, save, and share recipes with step-by-step instructions, photos, shopping lists, and dietary filters. Whether vegetarian, keto, or gluten-free, customize the app to your preferences. Use the built-in timer, adjust serving sizes, or generate weekly meal plans. With social sharing and ratings, you can also see what’s trending and follow top chefs or friends.",
+    "size": 99,
+    "reviews": 620,
+    "ratingAvg": 4.3,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 305 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/fL8wLMyN/download-3.jpg",
+    "title": "GameHub",
+    "companyName": "PlayEase",
+    "id": 7,
+    "description": "GameHub is a centralized gaming launcher and social hub that unifies your installed games, news, achievements, friends, and chat into one app. Organize your games, see trending titles, join multiplayer sessions, and get recommendations. It supports cloud saves, cross-platform stats, game news, live streams, and interactive events. Whether casual or hardcore, GameHub aims to be the gateway to all your gaming experiences.",
+    "size": 175,
+    "reviews": 540,
+    "ratingAvg": 4.4,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 160 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/QtyRwCVz/downldsfoad.png",
+    "title": "LearnLang",
+    "companyName": "EduWave",
+    "id": 8,
+    "description": "LearnLang is an engaging language learning app offering daily lessons, speaking and listening exercises, flashcards, grammar tips, and adaptive learning paths. It supports multiple languages, lets you practice with native speakers, tracks streaks, has quizzes, micro-learning sessions, and immersive stories. Built for learners of all levels, LearnLang focuses on consistency, intrinsic motivation, and real-world conversation practice.",
+    "size": 89,
+    "reviews": 785,
+    "ratingAvg": 4.5,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 392 }
+    ]
+  }
+]

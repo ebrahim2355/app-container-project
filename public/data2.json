@@ -1,0 +1,669 @@
+[
+  {
+    "image": "https://i.postimg.cc/k4bVR6r2/download.jpg",
+    "title": "SkyTrack",
+    "companyName": "CloudTech Inc.",
+    "id": 1,
+    "description": "SkyTrack helps you monitor flights all around the world in real time, with live maps, delay alerts, and historical data. Dive into detailed statistics about each flight’s path, speed, altitude, and more. Whether you’re tracking your upcoming trip or just curious about air traffic, SkyTrack offers a sleek interface, customizable filters, push notifications, and offline caching for when you lose connectivity.",
+    "size": 152,
+    "reviews": 1245,
+    "ratingAvg": 4.7,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 710 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/LsdF6nTF/unnamed.png",
+    "title": "FitJourney",
+    "companyName": "WellnessLabs",
+    "id": 2,
+    "description": "FitJourney is your personal fitness companion that guides you through workouts, nutrition plans, habit tracking, and progress reports. Use it to set goals, log meals (with barcode scanning), track water intake, and connect with wearable devices. It also offers community challenges, motivational reminders, and AI-based adjustments to keep your training optimal and sustainable over time.",
+    "size": 87,
+    "reviews": 987,
+    "ratingAvg": 4.5,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 582 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/43Xw5GfM/download-1.jpg",
+    "title": "BudgetPal",
+    "companyName": "FinanceSoft",
+    "id": 3,
+    "description": "BudgetPal helps you manage money effortlessly. Track income and expenses, set budgets, get alerts when you're overspending, view insightful charts, and export data to spreadsheets. It supports multiple accounts, categories, recurring transactions, and year-end financial summaries. With dark mode, built-in security, and cloud sync, it’s perfect for both casual users and finance-savvy people.",
+    "size": 45,
+    "reviews": 756,
+    "ratingAvg": 4.2,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 251 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/rwfgQbDW/downloasfdvd.png",
+    "title": "TravelEyes",
+    "companyName": "WanderTech",
+    "id": 4,
+    "description": "TravelEyes is a travel planning and journaling app that lets you create itineraries, log your journey with photos and notes, find local attractions, and navigate offline maps. It integrates with flight and hotel bookings and provides suggestions based on your preferences. Share your travel stories with friends or export as a travel blog. It’s designed for adventurers who want both planning tools and memory keeping in one place.",
+    "size": 129,
+    "reviews": 432,
+    "ratingAvg": 4.8,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 200 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/5yfCc4Gz/download-2.jpg",
+    "title": "MindWave",
+    "companyName": "CalmTech",
+    "id": 5,
+    "description": "MindWave is a mental wellness app offering guided meditations, breathing exercises, mood tracking, sleep stories, and mindfulness challenges. It adapts sessions to your mood, offers reminders, and has soothing ambient sounds. Whether you're new to meditation or advanced practitioner, MindWave strives to help reduce stress, improve focus, and support better sleep through daily practice and progress visualization.",
+    "size": 67,
+    "reviews": 913,
+    "ratingAvg": 4.6,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 22 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 473 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/YScjK2Lq/downlreoad.png",
+    "title": "RecipeBox",
+    "companyName": "FoodieLabs",
+    "id": 6,
+    "description": "RecipeBox lets you discover, save, and share recipes with step-by-step instructions, photos, shopping lists, and dietary filters. Whether vegetarian, keto, or gluten-free, customize the app to your preferences. Use the built-in timer, adjust serving sizes, or generate weekly meal plans. With social sharing and ratings, you can also see what’s trending and follow top chefs or friends.",
+    "size": 99,
+    "reviews": 620,
+    "ratingAvg": 4.3,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 305 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/fL8wLMyN/download-3.jpg",
+    "title": "GameHub",
+    "companyName": "PlayEase",
+    "id": 7,
+    "description": "GameHub is a centralized gaming launcher and social hub that unifies your installed games, news, achievements, friends, and chat into one app. Organize your games, see trending titles, join multiplayer sessions, and get recommendations. It supports cloud saves, cross-platform stats, game news, live streams, and interactive events. Whether casual or hardcore, GameHub aims to be the gateway to all your gaming experiences.",
+    "size": 175,
+    "reviews": 540,
+    "ratingAvg": 4.4,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 160 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/QtyRwCVz/downldsfoad.png",
+    "title": "LearnLang",
+    "companyName": "EduWave",
+    "id": 8,
+    "description": "LearnLang is an engaging language learning app offering daily lessons, speaking and listening exercises, flashcards, grammar tips, and adaptive learning paths. It supports multiple languages, lets you practice with native speakers, tracks streaks, has quizzes, micro-learning sessions, and immersive stories. Built for learners of all levels, LearnLang focuses on consistency, intrinsic motivation, and real-world conversation practice.",
+    "size": 89,
+    "reviews": 785,
+    "ratingAvg": 4.5,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 392 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/6Qw245WV/download.jpg",
+    "title": "PhotoForge Pro",
+    "companyName": "PixelCraft LLC",
+    "id": 9,
+    "description": "PhotoForge Pro is a complete photo editing suite designed for both amateur and professional photographers. It includes tools for raw image processing, advanced color correction, layers, masking, curves, filters, and batch export. With non-destructive editing, real-time previews, lens correction, panorama stitching, and built-in tutorials, you can drastically improve your workflow. The UI is optimized for speed, and there are many presets plus the ability to create your own. Share directly to social media or export in multiple formats and sizes.",
+    "size": 210,
+    "reviews": 1224,
+    "ratingAvg": 4.3,
+    "downloads": 450000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 599 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/xd08Tx5M/downlsdoad.png",
+    "title": "NoteWave",
+    "companyName": "BrainSync Technologies",
+    "id": 10,
+    "description": "NoteWave is a powerful note-taking and organization app that lets you type or handwrite notes, sketch diagrams, embed images, record audio, and organize everything in notebooks, tags, and smart folders. It supports syncing across devices, offline mode, version history, and export options. You can annotate PDFs, collaborate with others, insert checklists, reminders, and view your content in customizable layouts. Ideal for students, professionals, and creatives who need both flexibility and reliability.",
+    "size": 95,
+    "reviews": 870,
+    "ratingAvg": 4.6,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 22 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/W4bZfbQB/download-1.jpg",
+    "title": "Budget-Buddy",
+    "companyName": "MoneyMap Co.",
+    "id": 11,
+    "description": "Budget-Buddy is your financial companion. It helps you set monthly budgets, categorize expenses, track bills, and forecast savings. With graphs, alerts when you exceed your budget, recurring payments setup, and shared household budgets, you always know where your money is going. It also includes goal planning, insights, and tips to spend less and save more while keeping financial control accessible and user-friendly.",
+    "size": 65,
+    "reviews": 1017,
+    "ratingAvg": 4.2,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 515 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/NM25WypK/downloafgd.png",
+    "title": "TaskFlow",
+    "companyName": "Workflow Masters",
+    "id": 12,
+    "description": "TaskFlow is a task management and productivity app that allows you to manage projects, tasks, deadlines, reminders, and collaboration. Built-in Kanban boards, calendar views, subtasks, time tracking, integrations with other tools, and notifications ensure you stay organized. For teams, TaskFlow offers role-based permissions, shared boards, comment threads, attachments, and versioning. For individuals, simple, fast UI, dark mode, widgets, and offline mode make it powerful even without internet.",
+    "size": 120,
+    "reviews": 1350,
+    "ratingAvg": 4.7,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 765 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/1Xc5QD6x/dowssnload.png",
+    "title": "HealthSync",
+    "companyName": "VitalTrackers",
+    "id": 13,
+    "description": "HealthSync helps you monitor your health metrics: heart rate, sleep patterns, steps, hydration, mood, and more. It integrates with wearable devices and provides detailed charts, trend analyses, goal-setting, reminders, and community support. Whether you're focusing on sleep quality, fitness, or stress reduction, HealthSync adapts and gives suggestions, weekly reports, and expert tips, all designed to help you live healthier in a sustainable way.",
+    "size": 80,
+    "reviews": 950,
+    "ratingAvg": 4.5,
+    "downloads": 320000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/rwzchBfP/images.jpg",
+    "title": "CookMaster",
+    "companyName": "Culinary Crafts",
+    "id": 14,
+    "description": "CookMaster is a cooking app that offers thousands of recipes, video tutorials, ingredient substitution advice, shopping lists, meal planning, and dietary filter options (vegetarian, vegan, keto, gluten-free). It has user uploads, community ratings, save and share functionality, timers, step by step photos, and voice guided cooking. Whether you are a beginner or experienced cook, CookMaster helps you master new recipes and cuisines while making cooking fun and manageable.",
+    "size": 110,
+    "reviews": 780,
+    "ratingAvg": 4.4,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 340 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/DZPtf6C4/download-2.jpg",
+    "title": "EduQuest",
+    "companyName": "KnowledgeTree",
+    "id": 15,
+    "description": "EduQuest is a learning platform with interactive courses, quizzes, flashcards, video lectures, progress dashboards, peer discussion, assignments, and certification tracks. It supports multiple subjects, skills, languages, and tracks your learning path. You can set reminders, offline mode, measure your improvement, get feedback, and earn rewards. Designed for learners of all ages and levels, EduQuest focuses on engagement, retention, and long-term progress through adaptive difficulty and personalization.",
+    "size": 150,
+    "reviews": 1430,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 725 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/BbvwS0PX/downlsaoad.png",
+    "title": "ArtStudio XL",
+    "companyName": "Creative Lab",
+    "id": 16,
+    "description": "ArtStudio XL allows you to sketch, paint, vector draw, compose digital artwork, mix colors, use layers and masks, custom brushes, texture tools, and export options for high resolution output. It has tutorial lessons, gallery explore, collaborate features, brush sharing, color palettes, and ability to work with stylus. Whether you’re crafting illustrations, design work, or just doodling, the app delivers robust tools and beautiful outputs.",
+    "size": 180,
+    "reviews": 670,
+    "ratingAvg": 4.5,
+    "downloads": 230000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 525 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/Kj4JXDCn/download-3.jpg",
+    "title": "SleepSounds",
+    "companyName": "RestWell LLC",
+    "id": 17,
+    "description": "SleepSounds is an app designed to help you relax and fall asleep with ambient sounds, white noise, guided sleep stories, binaural beats, sound mixing, scheduled shutoff, and night mode. Personalize your soundscapes, track your sleep quality, and wake up refreshed. Offline downloads available so you can use it without internet. Suitable for sensitive sleepers and anyone wanting more restful nights.",
+    "size": 55,
+    "reviews": 810,
+    "ratingAvg": 4.4,
+    "downloads": 190000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 390 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/FzfgCsJp/download-4.jpg",
+    "title": "PuzzleStorm",
+    "companyName": "BrainGames",
+    "id": 18,
+    "description": "PuzzleStorm is a challenging puzzle game collection featuring classic puzzles like sudoku, crosswords, logic grids, jigsaws, and new brain teasers. Custom difficulty, daily challenge mode, hints, timer, leaderboards, and achievements make it engaging. Use offline mode, track progress, reset puzzles, and share your scores. Ideal for quick brain breaks or committed puzzle solving seasons for cognitive improvement.",
+    "size": 75,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 260000,
+    "ratings": [
+      { "name": "1 star", "count": 28 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 467 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/6pKbqnvd/assa.png",
+    "title": "WeatherWise",
+    "companyName": "SkyCast Studios",
+    "id": 19,
+    "description": "WeatherWise gives you beautifully designed weather maps, forecasts, hourly & weekly forecasts, alerts for severe conditions, radar maps, humidity, wind speed, UV index, sunrise/sunset times, satellite views, and suggestions based on your plans. Widgets, clean design, offline caching, and minimal battery usage are part of its design. Great for travelers, outdoor enthusiasts, farmers, or anyone who likes to be prepared.",
+    "size": 90,
+    "reviews": 1120,
+    "ratingAvg": 4.5,
+    "downloads": 350000,
+    "ratings": [
+      { "name": "1 star", "count": 22 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 578 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/tTNxb9JC/downlofdgvad.png",
+    "title": "MindPal",
+    "companyName": "FocusWorks",
+    "id": 20,
+    "description": "MindPal is a brain training app offering memory games, attention drills, logic puzzles, speed tests, relaxing visuals, and performance tracking. It’s designed to be fun and scientifically grounded with daily goals, reminders, dark mode, offline play, multiple levels, leaderboard competition, and detailed progress stats. Suitable for users wanting to sharpen their mind or just relax with mentally stimulating content.",
+    "size": 80,
+    "reviews": 715,
+    "ratingAvg": 4.4,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/15tqxhZT/dofwnload.png",
+    "title": "TravelMate",
+    "companyName": "Roam Inc.",
+    "id": 21,
+    "description": "TravelMate simplifies trip planning. Find and book flights and hotels, generate itinerary suggestions, maps with attractions, local tips, currency conversion, weather forecasts, packing checklists, offline maps, and photo memories. It also offers sharing with friends, reviews, and budget-friendly options. All through a clean, intuitive interface that helps you discover and travel smarter and safer.",
+    "size": 140,
+    "reviews": 1032,
+    "ratingAvg": 4.6,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 22 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 692 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/Cxnn1Gd0/downdsxvfload.png",
+    "title": "Mindful Minutes",
+    "companyName": "ZenTime Co.",
+    "id": 22,
+    "description": "Mindful Minutes helps you find calm with daily guided meditations, breathing exercises, ambient soundscapes, and mind-body connection sessions. Offers schedule reminders, sleep tracking, mood logging, gratitude journal, offline audio downloads, and customizable themes. Great for reducing stress and enhancing focus, with insights and analytics helping you develop mindfulness habits for life.",
+    "size": 60,
+    "reviews": 890,
+    "ratingAvg": 4.7,
+    "downloads": 275000,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 488 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/Kzx1JCN9/downlosfad.png",
+    "title": "RunTracker",
+    "companyName": "FitMotion",
+    "id": 23,
+    "description": "RunTracker helps you monitor your runs, pace, distance, elevation, and calories. Offers route tracking, maps, heart-rate integration, VO2Max estimation, challenge modes, wearable support, community races, and photo share after runs. With training plans for beginners to advanced runners, and voice feedback, achievements, weekly/monthly summaries, it keeps you motivated and moving forward whether for general fitness or serious training.",
+    "size": 105,
+    "reviews": 820,
+    "ratingAvg": 4.5,
+    "downloads": 225000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 655 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/Rh0Nzfj9/downlrrfdgoad.png",
+    "title": "QuoteDaily",
+    "companyName": "InspireDaily",
+    "id": 24,
+    "description": "QuoteDaily delivers motivational quotes, daily affirmations, wallpapers, and reminders designed to brighten your day and shift mindset. Features include quote categories, favorites, sharing, scheduling, dark mode, beautiful images, customizable typography, and inspired challenges. Browse popular quote authors, discover new voices, tag favorites, and revisit past quotes easily—all wrapped in pleasing aesthetics.",
+    "size": 35,
+    "reviews": 940,
+    "ratingAvg": 4.8,
+    "downloads": 270000,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 460 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/PqkJ50Bx/downfsload.png",
+    "title": "StockWatch",
+    "companyName": "MarketPeek",
+    "id": 25,
+    "description": "StockWatch keeps you up-to-date with the stock market in real time. View live stock quotes, portfolios, news feeds, earnings calendars, technical analysis charts, alert triggers, watchlists, and historical performance metrics. Supports multiple exchanges, currency conversion, dark mode, offline data storage, and customizable dashboards. Suitable for day traders and long-term investors alike who want clarity, transparency, and fast performance.",
+    "size": 130,
+    "reviews": 590,
+    "ratingAvg": 4.3,
+    "downloads": 190000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 470 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/kGZX3HQX/downlosdfgvad.png",
+    "title": "NewsPulse",
+    "companyName": "DailyBeat Media",
+    "id": 26,
+    "description": "NewsPulse aggregates top headlines, local stories, international events, multimedia content, and push notifications. Customize what topics you follow, filter by region, save articles for later offline reading, share with others, and adjust text size/theme. Also includes related videos, audio briefings, and fact checks. Designed to keep you informed without info overload.",
+    "size": 70,
+    "reviews": 1250,
+    "ratingAvg": 4.4,
+    "downloads": 330000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 635 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/DzFfTLXW/download-5.jpg",
+    "title": "LangLearner",
+    "companyName": "LinguaSoft",
+    "id": 27,
+    "description": "LangLearner offers lessons in dozens of languages through interactive vocabulary drills, pronunciation practice, speaking exercises, grammar lessons, quizzes, and immersive stories. Adapted to your level, complete with reminders, streak tracking, offline content, peer reviews, and cultural notes. Designed to make language learning fun, rewarding, and part of your daily habit without overwhelming you.",
+    "size": 115,
+    "reviews": 768,
+    "ratingAvg": 4.6,
+    "downloads": 260000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 640 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/D0Wngc9v/downsfload.png",
+    "title": "FitnessPal",
+    "companyName": "FitLife Solutions",
+    "id": 28,
+    "description": "FitnessPal helps you track workouts, nutrition, body composition, and progress over time. Includes workout plans, video guides, exercise logging, meal planning, macro tracking, community challenges, wearable sync, progress visuals, and reminders. Whether weight loss, muscle building, or general health, this app adapts to your goals, helps you stay accountable, and motivates you with milestones and rewards.",
+    "size": 125,
+    "reviews": 1100,
+    "ratingAvg": 4.5,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/CxCYm5QC/dowafanload.png",
+    "title": "SecureNotes",
+    "companyName": "LockSafe Tech",
+    "id": 29,
+    "description": "SecureNotes gives you end-to-end encrypted note storage with optional biometric access, offline first design, automatic backups, organization via folders or tags, search, attachments, markdown support, and secure sharing. Perfect for personal or professional use, it puts security first without sacrificing usability. Built with modern encryption protocols and frequent audits, it ensures your data stays private and safe.",
+    "size": 60,
+    "reviews": 500,
+    "ratingAvg": 4.7,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 235 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/3RNT8BJ9/sf.png",
+    "title": "MovieMania",
+    "companyName": "CinemaSoft",
+    "id": 30,
+    "description": "MovieMania offers streaming recommendations, trailers, cast info, showtimes, watchlists, offline downloads, reviews and ratings, customizable profiles, dark mode, and curated lists. Get notified when new content drops, follow favorite actors or directors, and share comments. Whether you want blockbusters or indie films, it helps you discover what to watch next and create a personal cinema experience.",
+    "size": 210,
+    "reviews": 1400,
+    "ratingAvg": 4.3,
+    "downloads": 480000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 640 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/hhWW0R8w/dowdsanload.png",
+    "title": "PetCare",
+    "companyName": "AnimalSoft",
+    "id": 31,
+    "description": "PetCare helps you track your pets’ health, vaccinations, appointments, diet, activities, and medication schedules. Add photos, set reminders, track growth or weight, connect with local vets, share profiles, and monitor behaviour. Whether you have dogs, cats, birds or other animals, the app aims to cover all your needs for responsible pet ownership with convenience and reassurance.",
+    "size": 85,
+    "reviews": 730,
+    "ratingAvg": 4.6,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 325 },
+      { "name": "5 star", "count": 485 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/Dwhm29V8/download-6.jpg",
+    "title": "GardenGuru",
+    "companyName": "GreenThumb Apps",
+    "id": 32,
+    "description": "GardenGuru is your garden care assistant. Plan planting schedules, get watering reminders, identify plants, monitor soil moisture, track pest control, design layouts, share photos, and get gardening tips based on your climate. Offline mode, photo recognition, progress tracking, and robust analytics help both hobbyists and serious gardeners maintain healthy, beautiful gardens all year round.",
+    "size": 98,
+    "reviews": 650,
+    "ratingAvg": 4.5,
+    "downloads": 180000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/MGPGmXnr/download-7.jpg",
+    "title": "SleepTracker",
+    "companyName": "DreamSoft",
+    "id": 33,
+    "description": "SleepTracker charts your sleep stages, monitors snore and motion, tracks heart-rate, records ambient sound, offers nightly statistics, suggestions for better sleep, smart alarm, sleep reports with graphs, and integration with wearable devices. Also includes dark mode, offline summaries, privacy options, and custom soundscapes for falling asleep or waking up gently.",
+    "size": 70,
+    "reviews": 840,
+    "ratingAvg": 4.4,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 345 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/HxFsFK47/download-8.jpg",
+    "title": "CarShare",
+    "companyName": "MobilityX",
+    "id": 34,
+    "description": "CarShare is a ride sharing and car pooling app that lets users find rides, share trips, schedule pickups, and pay seamlessly. Offers real-time tracking, reviews, safety features, in-app chat, route suggestions, split fare features, driver/passenger profiles, schedule rides in advance, map view, rating system, and payment integration. It focuses on convenience, cost savings, and reducing carbon footprint.",
+    "size": 140,
+    "reviews": 520,
+    "ratingAvg": 4.5,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 630 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/Dykwg9zk/download-9.jpg",
+    "title": "ListenUp",
+    "companyName": "HarmonyApps",
+    "id": 35,
+    "description": "ListenUp is a music streaming app with curated playlists, offline downloads, explicit content filter, lyrics display, social sharing, artist radio, personalized recommendations, sleep timer, equalizer settings, and cross-device syncing. Whether you prefer pop, classical, rap or jazz, ListenUp adapts to your taste and mood, offering mood based stations and daily mixes for discovery.",
+    "size": 200,
+    "reviews": 1125,
+    "ratingAvg": 4.6,
+    "downloads": 470000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 810 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/hjQK8sWG/download-10.jpg",
+    "title": "DevTools",
+    "companyName": "CodexSoft",
+    "id": 36,
+    "description": "DevTools is a suite for developers that includes code editors, debugging tools, git integration, snippets, themes, terminal, live preview, performance profiling, and plugin support. Built for cross-platform and web workflows, it allows collaboration, sync, and cloud backup. Whether you're building websites, apps, or scripts, it helps streamline development and maintenance tasks with powerful yet intuitive user tools.",
+    "size": 155,
+    "reviews": 670,
+    "ratingAvg": 4.5,
+    "downloads": 285000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/cL1Zk0yc/downloadaad.png",
+    "title": "Translator-X",
+    "companyName": "LinguaTech",
+    "id": 37,
+    "description": "Translator-X lets you translate text, voice, or camera input between multiple languages. Offers offline packs, phrasebooks, pronunciation guides, cultural notes, dictionary lookup, chat translation, collaboration, favorite phrases, text-to-speech, and saving frequently used phrases. Perfect for travelers, students, or anyone needing quick translation support on the go.",
+    "size": 90,
+    "reviews": 890,
+    "ratingAvg": 4.4,
+    "downloads": 260000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 630 }
+    ]
+  }
+  
+]
