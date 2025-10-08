@@ -16,25 +16,25 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                loader: () => fetch("data1.json"),
+                loader: () => fetch("/data1.json"),
                 path: "/",
                 Component: Home,
             },
             {
                 path: "/AllApps",
                 Component: AllApps,
-                loader: () => fetch("data2.json"),
+                loader: () => fetch("/data2.json"),
                 // errorElement: AppErrorPage,
             },
             {
                 path: "/AppDetail/:id",
-                loader: () => fetch("data2.json"),
+                loader: () => fetch("/data2.json"),
                 Component: AppDetail,
                 errorElement: AppErrorPage,
             },
             {
                 path: "/installation",
-                loader: () => fetch("data2.json"),
+                loader: () => fetch("/data2.json"),
                 Component: InstalledApps,
             }
         ]

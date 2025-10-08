@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import { getStoredApp, removeFromStorage } from '../../utilities/addToDB';
 import InstalledApp from './InstalledApp';
+import { toast, ToastContainer } from 'react-toastify';
 
 const InstalledApps = () => {
     const data = useLoaderData();
@@ -18,11 +19,11 @@ const InstalledApps = () => {
 
     const handleSort = type => {
         setSort(type);
-        if(type === "lowToHigh"){
+        if (type === "lowToHigh") {
             const sortedByLowToHigh = [...appList].sort((a, b) => a.size - b.size);
             setAppList(sortedByLowToHigh);
         }
-        if(type === "highToLow"){
+        if (type === "highToLow") {
             const sortedByHighToLow = [...appList].sort((a, b) => b.size - a.size);
             setAppList(sortedByHighToLow);
         }
@@ -33,6 +34,8 @@ const InstalledApps = () => {
         setAppList(updatedList);
 
         removeFromStorage(id);
+
+        toast(`Uninstalled Successfully`)
     }
     return (
         <div className='py-20 bg-[#F5F5F5]'>
@@ -49,10 +52,12 @@ const InstalledApps = () => {
                         </ul>
                     </div>
                 </div>
-
-                {
-                    appList.map(app => <InstalledApp app={app} key={app.id} handleUninstall={handleUninstall}></InstalledApp>)
-                }
+                <ToastContainer></ToastContainer>
+                <Suspense fallback={<div><span className="loading loading-ring loading-xl"></span></div>}>
+                    {
+                        appList.map(app => <InstalledApp app={app} key={app.id} handleUninstall={handleUninstall}></InstalledApp>)
+                    }
+                </Suspense>
             </div>
         </div>
     );

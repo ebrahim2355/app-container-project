@@ -12,12 +12,23 @@ const AppDetail = () => {
     const data = useLoaderData();
     const singleApp = data.find(app => app.id === parseInt(id));
 
+    if (!singleApp) {
+        return (
+            <div className="flex flex-col justify-center items-center h-screen text-center">
+                <h1 className="text-5xl font-bold text-gray-600">App Not Found 😞</h1>
+                <p className="text-xl text-gray-500 mt-4">
+                    The app you’re looking for doesn’t exist or was removed.
+                </p>
+            </div>
+        );
+    }
+
     const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings, description } = singleApp;
 
     const [installed, setInstalled] = useState(false);
     useEffect(() => {
         const storedApps = getStoredApp();
-        if(storedApps.includes(id.toString())){
+        if (storedApps.includes(id.toString())) {
             setInstalled(true);
         }
     }, [id])
