@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import downloadIcon from "../../assets/icon-downloads.png"
 import ratingIcon from "../../assets/icon-ratings.png"
 import reviewIcon from "../../assets/icon-review.png"
 import RatingsChart from '../../components/RatingsChart/RatingsChart';
-import { addToStoreDB } from '../../utilities/addToDB';
+import { addToStoreDB, getStoredApp } from '../../utilities/addToDB';
+import { toast, ToastContainer } from 'react-toastify';
 
 const AppDetail = () => {
     const { id } = useParams();
@@ -13,8 +14,18 @@ const AppDetail = () => {
 
     const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings, description } = singleApp;
 
+    const [installed, setInstalled] = useState(false);
+    useEffect(() => {
+        const storedApps = getStoredApp();
+        if(storedApps.includes(id.toString())){
+            setInstalled(true);
+        }
+    }, [id])
+
     const handleInstall = id => {
         addToStoreDB(id);
+        toast(`${title}: ${companyName} is Installed Successfully`);
+        setInstalled(true);
     }
 
     return (
@@ -43,7 +54,8 @@ const AppDetail = () => {
                             <h1 className='font-extrabold text-4xl'>{reviews}</h1>
                         </div>
                     </div>
-                    <button onClick={() => handleInstall(id)} className='text-white px-5 py-3.5 rounded-sm bg-[#00D390] text-xl font-semibold'>Install Now ({size} MB)</button>
+                    <ToastContainer></ToastContainer>
+                    <button onClick={() => handleInstall(id)} disabled={installed} className={`text-white px-5 py-3.5 rounded-sm bg-[#00D390] text-xl font-semibold cursor-pointer ${installed ? "bg-gray-400" : "bg-[#00d390]"}`}>{installed ? "Installed" : `Install Now (${size} MB)`}</button>
                 </div>
             </div>
 

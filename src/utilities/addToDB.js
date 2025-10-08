@@ -14,7 +14,7 @@ const addToStoreDB = (id) => {
     const storedAppData = getStoredApp();
 
     if(storedAppData.includes(id)){
-        alert("You have already Marked the Book as Read")
+        return;
     }
     else{
         storedAppData.push(id);
