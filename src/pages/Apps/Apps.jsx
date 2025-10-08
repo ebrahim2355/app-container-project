@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 const Apps = ({ data }) => {
     return (
         <div className='bg-[#F5F5F5]'>
-            <h1 className=' text-center text-5xl font-bold pb-4'>Trending Apps</h1>
+            <h1 className=' text-center text-5xl font-bold pb-4 pt-14'>Trending Apps</h1>
             <p className='text-center text-[#627382] text-xl pb-10'>Explore All Trending Apps on the Market developed by us</p>
 
             <Suspense>

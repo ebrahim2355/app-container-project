@@ -9,7 +9,7 @@ const Banner = () => {
         <div className='text-center bg-[#F5F5F5]'>
             <h1 className='text-7xl font-bold opacity-90 pt-20 pb-4'>We Build <br /> <span className='text-[#8148EB]'>Productive</span> Apps</h1>
             <p className='text-xl max-w-6xl mx-auto mb-10 text-[#627382]'>At TREND-TROVE, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
-            <div className='flex justify-center items-center gap-4 mb-10'>
+            <div className='flex flex-col md:flex-row justify-center items-center gap-4 mb-10'>
                 <Link to={"https://play.google.com/"}>
                     <button className='flex items-center gap-2.5 font-medium text-xl py-2 px-5 rounded-sm border border-gray-300 cursor-pointer'><img className='w-8 h-8' src={playStoreLogo} alt="" /> Google Play</button>
                 </Link>
@@ -21,7 +21,7 @@ const Banner = () => {
                 <img src={mobilePic}
                     alt="" />
             </div>
-            <div className='bg-linear-to-r from-[#632EE3] to-[#9F62F2]  py-20 text-white mb-20'>
+            <div className='bg-linear-to-r from-[#632EE3] to-[#9F62F2]  py-20 text-white pb-20'>
                 <h1 className='text-5xl font-bold pb-10'>Trusted by Millions, Built for You</h1>
                 <div className='flex flex-col md:flex-row justify-around items-center'>
                     <div>

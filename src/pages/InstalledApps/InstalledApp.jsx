@@ -9,7 +9,7 @@ const InstalledApp = ({app}) => {
                 <img className='w-[70px] h-[70px] rounded-sm' src={image} alt="" />
                 <div>
                     <h3 className='text-xl font-medium mb-3'>{title}: {companyName}</h3>
-                    <div className='flex gap-4'>
+                    <div className='flex flex-col md:flex-row gap-4'>
                         <p className='flex text-[#00D390] font-medium'><Download></Download> {downloads}</p>
                         <p className='flex text-[#FF8811] font-medium'><Star></Star> {ratingAvg}</p>
                         <p className='text-[#627382]'>{size} MB</p>
