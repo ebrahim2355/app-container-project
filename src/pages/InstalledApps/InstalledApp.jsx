@@ -1,8 +1,8 @@
 import { Download, Star } from 'lucide-react';
 import React from 'react';
 
-const InstalledApp = ({app}) => {
-    const {title, companyName, image, ratingAvg, downloads, size} = app;
+const InstalledApp = ({app, handleUninstall}) => {
+    const {title, companyName, image, ratingAvg, downloads, size, id} = app;
     return (
         <div className='flex justify-between items-center bg-white rounded-lg mb-4 p-6'>
             <div className='flex gap-4 items-center'>
@@ -17,7 +17,7 @@ const InstalledApp = ({app}) => {
                 </div>
             </div>
             <div>
-                <button className='py-3 px-4 rounded-sm bg-[#00D390] text-white font-semibold'>Uninstall</button>
+                <button onClick={() => handleUninstall(id)} className='py-3 px-4 rounded-sm bg-[#00D390] text-white font-semibold cursor-pointer'>Uninstall</button>
             </div>
         </div>
     );

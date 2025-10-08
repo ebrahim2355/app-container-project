@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
-import { getStoredApp } from '../../utilities/addToDB';
+import { getStoredApp, removeFromStorage } from '../../utilities/addToDB';
 import InstalledApp from './InstalledApp';
 
 const InstalledApps = () => {
@@ -14,7 +14,7 @@ const InstalledApps = () => {
         const convertedStoredApps = storedAppData.map(id => parseInt(id));
         const myAppList = data.filter(app => convertedStoredApps.includes(app.id));
         setAppList(myAppList);
-    }, [])
+    }, [data])
 
     const handleSort = type => {
         setSort(type);
@@ -26,6 +26,13 @@ const InstalledApps = () => {
             const sortedByHighToLow = [...appList].sort((a, b) => b.size - a.size);
             setAppList(sortedByHighToLow);
         }
+    }
+
+    const handleUninstall = id => {
+        const updatedList = appList.filter(app => app.id !== id);
+        setAppList(updatedList);
+
+        removeFromStorage(id);
     }
     return (
         <div className='py-20 bg-[#F5F5F5]'>
@@ -44,7 +51,7 @@ const InstalledApps = () => {
                 </div>
 
                 {
-                    appList.map(app => <InstalledApp app={app}></InstalledApp>)
+                    appList.map(app => <InstalledApp app={app} key={app.id} handleUninstall={handleUninstall}></InstalledApp>)
                 }
             </div>
         </div>

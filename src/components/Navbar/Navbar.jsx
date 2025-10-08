@@ -1,14 +1,32 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import logo from "../../assets/logo.png"
 import { Github } from 'lucide-react';
 
 const Navbar = () => {
     const links = <>
-        <Link to={"/"}>Home</Link>
-        <Link to={"/AllApps"}>Apps</Link>
-        <Link to={"/installation"}>Installation</Link>
+        <NavLink
+            to="/"
+            className={({ isActive }) => isActive ? "text-[#8148EB] font-bold underline" : "text-black"}
+        >
+            Home
+        </NavLink>
+
+        <NavLink
+            to="/AllApps"
+            className={({ isActive }) => isActive ? "text-[#8148EB] font-bold underline" : "text-black"}
+        >
+            Apps
+        </NavLink>
+
+        <NavLink
+            to="/installation"
+            className={({ isActive }) => isActive ? "text-[#8148EB] font-bold underline" : "text-black"}
+        >
+            Installation
+        </NavLink>
     </>
+
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm">
@@ -34,7 +52,9 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className='flex items-center gap-2 text-white font-medium py-3 px-4 rounded-sm bg-linear-to-r from-[#632EE3] to-[#9F62F2]'><Github></Github>Contribute</button>
+                    <Link to={"https://github.com/ebrahim2355"}>
+                        <button className='flex items-center gap-2 text-white font-medium py-3 px-4 rounded-sm bg-linear-to-r from-[#632EE3] to-[#9F62F2] cursor-pointer'><Github></Github>Contribute</button>
+                    </Link>
                 </div>
             </div>
         </div>
