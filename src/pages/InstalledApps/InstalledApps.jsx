@@ -20,11 +20,11 @@ const InstalledApps = () => {
     const handleSort = type => {
         setSort(type);
         if (type === "lowToHigh") {
-            const sortedByLowToHigh = [...appList].sort((a, b) => a.size - b.size);
+            const sortedByLowToHigh = [...appList].sort((a, b) => a.downloads - b.downloads);
             setAppList(sortedByLowToHigh);
         }
         if (type === "highToLow") {
-            const sortedByHighToLow = [...appList].sort((a, b) => b.size - a.size);
+            const sortedByHighToLow = [...appList].sort((a, b) => b.downloads - a.downloads);
             setAppList(sortedByHighToLow);
         }
     }
@@ -45,7 +45,7 @@ const InstalledApps = () => {
                 <div className='flex justify-between items-center pb-4'>
                     <p className='text-2xl font-semibold'>{appList.length} Apps Found</p>
                     <div className="dropdown dropdown-end">
-                        <div tabIndex={0} role="button" className="btn m-1">Sort By Size ⬇️</div>
+                        <div tabIndex={0} role="button" className="btn m-1">Sort By Downloads ⬇️</div>
                         <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                             <li><a onClick={() => handleSort("lowToHigh")}>Low-High</a></li>
                             <li><a onClick={() => handleSort("highToLow")}>High-Low</a></li>
